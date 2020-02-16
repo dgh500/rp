@@ -13,14 +13,14 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <div class="container-fluid">
+      <div className="container-fluid">
         <Nav />
         <Switch>
           <Route path="/">
             <Home />
           </Route>
         </Switch>
-      </div>  
+      </div>
         <Footer />
     </Router>
   );

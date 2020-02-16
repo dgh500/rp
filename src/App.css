@@ -27,15 +27,45 @@ body {
 }
 #pandaMob {
   height: 75px;
+  position: absolute;
+  top: 7px;
+  left: 45%;
+  right: 45%;
+  z-index: 3;
 }
 #nav {
   background-color: #93191C;
   color: white;
   font-weight: bold;
-}
 
+}
+#nav #navbarTogglerContainer {
+  background-color: #93191C;
+  width: 100%;
+}
+/* Bootstrap md size */
+@media (min-width: 768px) {
+  #nav {
+    min-height: 40px;
+  }
+  #navbar-nav > li > a {
+    /* (90px - line-height of 27px) / 2 = 6.5px */
+    padding-top: 6.5px;
+    padding-bottom: 6.5px;
+    line-height: 27px;
+  }
+}
 #nav .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+#nav #navSpacer {
+  width: 200px;
+  border: 0px solid green;
+}
+#nav .nav-item:not(#navSpacer) {
+  width: 200px;
+  border: 0px solid white;
+  text-align: center;
 }
 
 #nav a, #nav a:visited {
@@ -46,16 +76,9 @@ body {
   color: #FFF;
 }
 
-#nav .dropdown-menu {
-  background-color: #c33127;
-  color: #FFF;
-  border-radius: 0;
-}
-#nav .dropdown-menu .dropdown-item:hover {
-  background-color: #c33127;
-  color: #FFF;
-  border-radius: 5px;
-}
+
+
+
 /*** MOBILE CAROUSEL ***/
 #mobileCarousel {
   /* height: 500px; */
