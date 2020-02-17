@@ -45,23 +45,7 @@ body {
   background-color: #93191C;
   width: 100%;
 }
-/* Bootstrap md size */
-@media (min-width: 768px) {
-  #nav {
-    min-height: 40px;
-  }
-  #navbar-nav > li > a {
-    /* (90px - line-height of 27px) / 2 = 6.5px */
-    padding-top: 6.5px;
-    padding-bottom: 6.5px;
-    line-height: 27px;
-  }
-  #nav .nav-item:not(#navSpacer) {
-    width: 200px;
-    border: 0px solid white;
-    text-align: center;
-  }
-}
+
 #nav .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
@@ -86,7 +70,64 @@ body {
   color: #FFF;
 }
 
-
+/* Bootstrap md size */
+@media (min-width: 768px) {
+  #nav {
+    min-height: 40px;
+  }
+  #navbar-nav > li > a {
+    /* (90px - line-height of 27px) / 2 = 6.5px */
+    padding-top: 6.5px;
+    padding-bottom: 6.5px;
+    line-height: 27px;
+  }
+  #nav .nav-item:not(#navSpacer) {
+    width: 200px;
+    border: 0px solid white;
+    text-align: center;
+  }
+  #nav .nav-item:not(#navSpacer):hover {
+    background-color: #c33127;
+  }
+  #nav .nav-item:not(#navSpacer) {
+    text-align: center;
+  }
+}
+/**********************
+      CONTACT
+**********************/
+#contact {
+  margin: 30px 0;
+}
+#contact h1 {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  color: #c33127;
+}
+#contact label {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  text-align: left;
+  color: #c33127;
+  font-family: Bubblegum Sans, sans-serif;
+}
+#contact input, #contact textarea {
+  display: block;
+  margin: 10px auto;
+  width: 50%;
+}
+#contact textarea {
+  height: 100px;
+}
+#contact input[type="button"] {
+  background-color: #c33127;
+  color: white;
+  font-family: Bubblegum Sans, sans-serif;
+  border-radius: 10px;
+}
 
 
 /*** MOBILE CAROUSEL ***/

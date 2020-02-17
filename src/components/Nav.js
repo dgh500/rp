@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Nav = () => {
 
@@ -22,7 +23,7 @@ const Nav = () => {
           <li className="nav-item"><a href="#whatWeDo">What We Do</a></li>
           <li className="nav-item d-none d-md-block" id="navSpacer">&nbsp;</li>
           <li className="nav-item">About</li>
-          <li className="nav-item">Contact</li>
+          <li className="nav-item"><Link to="/contact">Contact</Link></li>
           {/* <li class="nav-item dropdown text-center">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Dropdown 1
