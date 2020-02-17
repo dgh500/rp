@@ -8,7 +8,7 @@ const Nav = () => {
       <span className="d-block d-md-none">Beautiful Personalised Red Panda Gifts</span>
     </div>
 
-    <nav className="navbar navbar-expand-md py-0 px-20" id="nav">
+    <nav className="navbar navbar-expand-md pymd-0 px-md-20" id="nav">
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerContainer" aria-controls="navbarTogglerContainer" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
@@ -17,7 +17,7 @@ const Nav = () => {
       <a href="/" className="d-none d-md-block navbar-brand"><img src="/images/logo-trans-150.png" alt="Red Panda Gifts" id="panda" /></a>
 
       <div className="collapse navbar-collapse" id="navbarTogglerContainer">
-        <ul className="navbar-nav mx-auto">
+        <ul className="navbar-nav mx-auto mt-2">
           <li className="nav-item">Frames</li>
           <li className="nav-item"><a href="#whatWeDo">What We Do</a></li>
           <li className="nav-item d-none d-md-block" id="navSpacer">&nbsp;</li>
