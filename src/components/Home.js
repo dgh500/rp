@@ -70,18 +70,6 @@ const Home = () => {
     </div>
     </div>
 
-
-    <div id="framesContainer" className="mx-auto">
-    <div className="row">
-    <div className="col-12">
-    <h3 className="m-0">FRAMES...</h3>
-    </div>
-    </div>
-    <div className="row no-gutters">
-
-    </div>
-    </div>
-
     <div id="whatContainer" className="mx-auto">
     <div className="row">
     <div className="col-12">
@@ -102,11 +90,11 @@ const Home = () => {
     <div className="col-12 col-md-3 m-0">
     <div className="whatWeDoExplanation">
     <h5>Step 1 - Get in touch!</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    <h5>Step 2 - Get in touch!</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    <h5>Step 3 - Get in touch!</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <p>Contact me with ANY theme and I will personalise it to match your wishes, and create something special for you!</p>
+    <h5>Step 2 - See Some Ideas!</h5>
+    <p>Based on our chat I will mock up a few designs and you can choose your favourite!</p>
+    <h5>Step 3 - Make Someone Happy!</h5>
+    <p>You've chosen your design and I will make your unique personalised gift to make someone special very happy!</p>
     </div>
     </div>
     </div>

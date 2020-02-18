@@ -134,6 +134,28 @@ body {
   margin: 0 auto;
   text-align: center;
 }
+/**********************
+      ABOUT
+**********************/
+#about {
+  padding: 30px 0;
+  background-color: #c33127;
+  color: white;
+}
+#about h1, #about h2 {
+  display: block;
+  margin: 0 auto;
+  width: 75%;
+  text-align: center;
+  color: #fff;
+}
+ #about p {
+   display: block;
+   color: white;
+   width: 75%;
+   margin: 15px auto;
+  text-align: center;
+ }
 
 
 /*** MOBILE CAROUSEL ***/
