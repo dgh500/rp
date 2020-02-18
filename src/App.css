@@ -13,7 +13,7 @@ body {
 }
 #footer {
   text-align: center;
-  background-color: #c33127;
+  background-color: #93191C;
   color: white;
   padding: 10px;
   height: 40px;
@@ -97,7 +97,8 @@ body {
       CONTACT
 **********************/
 #contact {
-  margin: 30px 0;
+  padding: 30px 0;
+  background-color: #c33127;
 }
 #contact h1 {
   display: block;
@@ -111,7 +112,7 @@ body {
   margin: 0 auto;
   width: 50%;
   text-align: left;
-  color: #c33127;
+  color: #ffffff;
   font-family: Bubblegum Sans, sans-serif;
 }
 #contact input, #contact textarea {
@@ -123,10 +124,15 @@ body {
   height: 100px;
 }
 #contact input[type="button"] {
-  background-color: #c33127;
+  background-color: #93191C;
   color: white;
   font-family: Bubblegum Sans, sans-serif;
   border-radius: 10px;
+}
+#contact #contactComplete {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 
