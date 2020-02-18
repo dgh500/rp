@@ -103,14 +103,14 @@ body {
 #contact h1 {
   display: block;
   margin: 0 auto;
-  width: 50%;
+  width: 75%;
   text-align: center;
-  color: #c33127;
+  color: #fff;
 }
 #contact label {
   display: block;
   margin: 0 auto;
-  width: 50%;
+  width: 75%;
   text-align: left;
   color: #ffffff;
   font-family: Bubblegum Sans, sans-serif;
@@ -118,7 +118,7 @@ body {
 #contact input, #contact textarea {
   display: block;
   margin: 10px auto;
-  width: 50%;
+  width: 75%;
 }
 #contact textarea {
   height: 100px;
