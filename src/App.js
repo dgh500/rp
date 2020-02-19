@@ -2,10 +2,9 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from 'react-router-dom';
-import Nav      from './components/Nav';
+import RpNav      from './components/Nav';
 import Home     from './components/Home';
 import Footer   from './components/Footer';
 import Contact  from './components/Contact';
@@ -16,7 +15,7 @@ function App() {
   return (
     <Router>
       <div className="container-fluid">
-        <Nav />
+        <RpNav />
         <Switch>
           <Route path="/contact">
             <Contact />

@@ -56,7 +56,7 @@ const Home = () => {
     <div className="carousel-caption d-block">
     <h5>BIRTHDAY 2</h5>
     <p>Looking for the perfect personalised Birthday Gift for that special person?</p>
-    <a href="#">CLICK HERE</a>
+    <a href="#x">CLICK HERE</a>
     </div>
     </div>
     <div className="carousel-item">
@@ -64,7 +64,7 @@ const Home = () => {
     <div className="carousel-caption d-block">
     <h5>BIRTHDAY 3</h5>
     <p>Looking for the perfect personalised Birthday Gift for that special person?</p>
-    <a href="#">CLICK HERE</a>
+    <a href="#xx">CLICK HERE</a>
     </div>
     </div>
     </div>

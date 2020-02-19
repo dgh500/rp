@@ -58,6 +58,8 @@ body {
   text-align: left;
   padding: 10px;
   margin: 2px 0;
+  width: 100%;
+  display: block;
 }
 #nav .nav-item:not(#navSpacer):hover {
   background-color: #c33127;
@@ -73,7 +75,7 @@ body {
 /* Bootstrap md size */
 @media (min-width: 768px) {
   #nav {
-    min-height: 40px;
+    height: 50px;
   }
   #navbar-nav > li > a {
     /* (90px - line-height of 27px) / 2 = 6.5px */
