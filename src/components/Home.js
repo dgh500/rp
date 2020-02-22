@@ -1,74 +1,92 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { Carousel } from 'react-bootstrap';
 
 const Home = () => {
 
   return (
     <>
-    <div id="desktopCarousel" className="carousel carousel-fade mx-auto d-none d-md-block" data-ride="carousel">
-    <div className="carousel-inner">
-    <div className="carousel-item active">
-    <img className="d-block mx-auto" src="images/banner1.jpg" alt="First slide" />
-    <div className="carousel-caption d-none d-md-block">
-    <h5>BIRTHDAY</h5>
-    <p>Looking for the perfect personalised Birthday Gift for that special person?</p>
-    <a href="#">CLICK HERE</a>
-    </div>
-    </div>
-    <div className="carousel-item">
-    <img className="d-block mx-auto" src="images/banner2.jpg" alt="First slide" />
-    <p className="reviewText text-center"><q>
-    I contacted Holly with a concept and she came back with a beautiful idea for my celebratory frame.<br />
-    The frame looks even more beautiful than in the photo!<br />
-    Very happy with the product & service<br />
-    Thank You!</q></p>
-    </div>
-    <div className="carousel-item">
-    <img className="d-block mx-auto" src="images/banner1.jpg" alt="First slide" />
-    <div className="carousel-caption d-none d-md-block">
-    <h5>BIRTHDAY 3</h5>
-    <p>Looking for the perfect personalised Birthday Gift for that special person?</p>
-    <a href="#">CLICK HERE</a>
-    </div>
-    </div>
-    </div>
-    <a className="carousel-control-prev" href="#desktopCarousel" role="button" data-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span className="sr-only">Previous</span>
-    </a>
-    <a className="carousel-control-next" href="#desktopCarousel" role="button" data-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-    <span className="sr-only">Next</span>
-    </a>
-    </div>
+    <Carousel id="desktopCarousel" interval={null}>
+      <Carousel.Item>
+        <img className="d-block mx-auto" src="images/banner1.jpg" alt="First slide" />
+        <Carousel.Caption>
+          <h5>BIRTHDAY</h5>
+          <p>Looking for the perfect personalised Birthday Gift for that special person?</p>
+          <Link to="/contact">CLICK HERE</Link>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="d-block mx-auto" src="images/banner2.jpg" alt="Second slide" />
+        <Carousel.Caption className="reviewText text-center">
+        <p><q>
+        I contacted Holly with a concept and she came back with a beautiful idea for my celebratory frame.<br />
+        The frame looks even more beautiful than in the photo!<br />
+        Very happy with the product & service<br />
+        Thank You!</q></p>
+          <Link to="/contact">CLICK HERE</Link>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
 
-    <div id="mobileCarousel" className="carousel slide carousel-fade d-block d-md-none" data-ride="carousel">
-    <div className="carousel-inner">
-    <div className="carousel-item active">
-    <img className="d-block w-100" src="images/banner1mob.jpg" alt="First slide" />
-    <div className="carousel-caption d-block">
-    <h5>BIRTHDAY</h5>
-    <p>Looking for the perfect personalised Birthday Gift for that special person?</p>
-    <a href="#">CLICK HERE</a>
-    </div>
-    </div>
-    <div className="carousel-item">
-    <img className="d-block w-100" src="images/banner1mob.jpg" alt="First slide" />
-    <div className="carousel-caption d-block">
-    <h5>BIRTHDAY 2</h5>
-    <p>Looking for the perfect personalised Birthday Gift for that special person?</p>
-    <a href="#x">CLICK HERE</a>
-    </div>
-    </div>
-    <div className="carousel-item">
-    <img className="d-block w-100" src="images/banner1mob.jpg" alt="First slide" />
-    <div className="carousel-caption d-block">
-    <h5>BIRTHDAY 3</h5>
-    <p>Looking for the perfect personalised Birthday Gift for that special person?</p>
-    <a href="#xx">CLICK HERE</a>
-    </div>
-    </div>
-    </div>
-    </div>
+    { /* // <div id="desktopCarousel" className="carousel carousel-fade mx-auto d-none d-md-block" data-ride="carousel">
+    // <div className="carousel-inner">
+    // <div className="carousel-item active">
+    // <img className="d-block mx-auto" src="images/banner1.jpg" alt="First slide" />
+    // <div className="carousel-caption d-none d-md-block">
+    // <h5>BIRTHDAY</h5>
+    // <p>Looking for the perfect personalised Birthday Gift for that special person?</p>
+    // <Link to="/contact">CLICK HERE</Link>
+    // </div>
+    // </div>
+
+    // <div className="carousel-item">
+    // <img className="d-block mx-auto" src="images/banner2.jpg" alt="First slide" />
+    // <p className="reviewText text-center"><q>
+    // I contacted Holly with a concept and she came back with a beautiful idea for my celebratory frame.<br />
+    // The frame looks even more beautiful than in the photo!<br />
+    // Very happy with the product & service<br />
+    // Thank You!</q></p>
+    // </div>
+
+    // </div>
+    // <a className="carousel-control-prev" href="#desktopCarousel" role="button" data-slide="prev">
+    // <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+    // <span className="sr-only">Previous</span>
+    // </a>
+    // <a className="carousel-control-next" href="#desktopCarousel" role="button" data-slide="next">
+    // <span className="carousel-control-next-icon" aria-hidden="true"></span>
+    // <span className="sr-only">Next</span>
+    // </a>
+    // </div>
+    //
+    // <div id="mobileCarousel" className="carousel slide carousel-fade d-block d-md-none" data-ride="carousel">
+    // <div className="carousel-inner">
+    // <div className="carousel-item active">
+    // <img className="d-block w-100" src="images/banner1mob.jpg" alt="First slide" />
+    // <div className="carousel-caption d-block">
+    // <h5>BIRTHDAY</h5>
+    // <p>Looking for the perfect personalised Birthday Gift for that special person?</p>
+    // <a href="#">CLICK HERE</a>
+    // </div>
+    // </div>
+    // <div className="carousel-item">
+    // <img className="d-block w-100" src="images/banner1mob.jpg" alt="First slide" />
+    // <div className="carousel-caption d-block">
+    // <h5>BIRTHDAY 2</h5>
+    // <p>Looking for the perfect personalised Birthday Gift for that special person?</p>
+    // <a href="#x">CLICK HERE</a>
+    // </div>
+    // </div>
+    // <div className="carousel-item">
+    // <img className="d-block w-100" src="images/banner1mob.jpg" alt="First slide" />
+    // <div className="carousel-caption d-block">
+    // <h5>BIRTHDAY 3</h5>
+    // <p>Looking for the perfect personalised Birthday Gift for that special person?</p>
+    // <a href="#xx">CLICK HERE</a>
+    // </div>
+    // </div>
+    // </div>
+    // </div> */ }
 
     <div id="whatContainer" className="mx-auto">
     <div className="row">

@@ -169,7 +169,7 @@ body {
 #desktopCarousel {
   max-width: 1200px;
 }
-#desktopCarousel .carousel-control-prev, .carousel-control-next {
+#desktopCarousel .carousel-control-prev, #desktopCarousel .carousel-control-next {
   background-color: rgba(255,255,255,0.75);
   position: absolute;
   bottom: 20px;
@@ -197,6 +197,8 @@ body {
   position: absolute;
   top: 40px;
   right: 10px;
+  left: auto;
+  bottom: auto;
   z-index: 10;
   padding: 10px;
   line-height: 2rem;
