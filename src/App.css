@@ -311,7 +311,7 @@ h1, h2, h3, h5 {
 #whatContainer {
   max-width: 1200px;
   margin-top: 10px;
-  margin-bottom: 10px;
+  border-bottom: 20px solid #c33127;
 }
 #whatContainer h3 {
   font-size: 2.5rem;

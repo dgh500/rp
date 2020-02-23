@@ -50,48 +50,16 @@ const Home = () => {
       </Carousel.Item>
     </Carousel>
 
-    { /* // <div id="desktopCarousel" className="carousel carousel-fade mx-auto d-none d-md-block" data-ride="carousel">
-
-
-    // <div id="mobileCarousel" className="carousel slide carousel-fade d-block d-md-none" data-ride="carousel">
-    // <div className="carousel-inner">
-    // <div className="carousel-item active">
-    // <img className="d-block w-100" src="images/banner1mob.jpg" alt="First slide" />
-    // <div className="carousel-caption d-block">
-    // <h5>BIRTHDAY</h5>
-    // <p>Looking for the perfect personalised Birthday Gift for that special person?</p>
-    // <a href="#">CLICK HERE</a>
-    // </div>
-    // </div>
-    // <div className="carousel-item">
-    // <img className="d-block w-100" src="images/banner1mob.jpg" alt="First slide" />
-    // <div className="carousel-caption d-block">
-    // <h5>BIRTHDAY 2</h5>
-    // <p>Looking for the perfect personalised Birthday Gift for that special person?</p>
-    // <a href="#x">CLICK HERE</a>
-    // </div>
-    // </div>
-    // <div className="carousel-item">
-    // <img className="d-block w-100" src="images/banner1mob.jpg" alt="First slide" />
-    // <div className="carousel-caption d-block">
-    // <h5>BIRTHDAY 3</h5>
-    // <p>Looking for the perfect personalised Birthday Gift for that special person?</p>
-    // <a href="#xx">CLICK HERE</a>
-    // </div>
-    // </div>
-    // </div>
-    // </div> */ }
-
-    <div id="whatContainer" className="mx-auto">
+    <div id="whatContainer" className="m-0 mx-auto">
     <div className="row">
     <div className="col-12">
     <a name="whatWeDo"></a>
-    <h3>WHAT WE DO...</h3>
+    <h3 className="m-0">WHAT WE DO...</h3>
     </div>
     </div>
     <div className="row">
-    <div className="col-12 col-md-9">
-    <div id="whatWeDoPersonalisedFrames" className="p-3 mb-2">
+    <div className="col-12 col-md-8 m-0 p-0">
+    <div id="whatWeDoPersonalisedFrames" className="p-3">
     <div className="gridCaption p-3">
     <h5>PERSONALISED FRAMES</h5>
     <p>Whatever the occasion treat someone special in your life with a with a one-of-a-kind personalised frame</p>
@@ -99,7 +67,7 @@ const Home = () => {
     </div>
     </div>
 
-    <div className="col-12 col-md-3 m-0">
+    <div className="col-12 col-md-4 m-0 p-0">
     <div className="whatWeDoExplanation">
     <h5>Step 1 - Get in touch!</h5>
     <p>Contact me with ANY theme and I will personalise it to match your wishes, and create something special for you!</p>
